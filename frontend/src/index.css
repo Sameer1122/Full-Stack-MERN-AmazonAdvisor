@@ -1,0 +1,86 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-color: #1f2024 !important;
+}
+tml {
+  overflow: auto;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1f2024;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #34373e;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #1f2024;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #1f2024;
+}
+
+::placeholder {
+  color: #4d4d4d !important;
+}
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(237, 53, 53);
+
+  cursor: not-allowed;
+}
+
+.left-image {
+  border-radius: 84px;
+}
+.custom-shape-divider-bottom-1633981422 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633981422 svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-bottom-1633981422 .shape-fill {
+  fill: #ffb900;
+}
+.button-login:active {
+  background: #000;
+}
