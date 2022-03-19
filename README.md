@@ -1,3 +1,3 @@
 # Full-Stack-MERN-AmazonAdvisor
 
-This is a full stack mern bloging app 
+This is a full stack mern bloging app created for Amzsite.com
